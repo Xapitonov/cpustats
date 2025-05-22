@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Сводки о ЦП</string>
+    <string name="title_activity_main">Сводки о ЦП</string>
+    <string name="title_activity_config">Настройки</string>
+    <string name="title_activity_about">Информация</string>
+
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_start_service">Показать уведомление</string>
+    <string name="menu_stop_service">Скрыть уведомление</string>
+    <string name="menu_exit">Выход</string>
+
+    <string name="require_notification_permission">Требуется разрешение на уведомления</string>
+    
+    <string name="config_general_category_title">Основное</string>
+    <string name="config_update_interval_title">Интервал обновления</string>
+    <string name="config_start_on_boot_title">Автозапуск</string>
+    <string name="config_start_on_boot_summary">Показывать уведомление при загрузке</string>
+
+    <string name="config_frequency_category_title">Частота ЦП</string>
+    <string name="config_show_frequency_notification">Уведомление</string>
+
+    <string name="config_usage_category_title">Загрузка ЦП</string>
+    <string name="config_show_usage_notification">Уведомление</string>
+    <string name="config_core_distribution_mode">Количество значков</string>
+    <string name="config_core_distribution_mode_summary">Кол-во и порядок значков уведомлений</string>
+    <string-array name="core_distribution_mode_entries">
+        <item>2 значка (5 ядер и более)</item>
+        <item>1 значок (без сортировки)</item>
+        <item>1 значок (с сортировкой)</item>
+    </string-array>
+
+    <string name="app_version" translatable="false">Версия {VERSION} [r{REVISION}]</string>
+    <string name="app_copyright" translatable="false">Разраб.: &#169; 2012-2025 Хироки ТАКЭУЧИ</string>
+
+</resources>
